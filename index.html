@@ -30,15 +30,34 @@
   </nav>
 </header>
     
+<script type="text/javascript">
     
-    
-<div class="grid section pad-t">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-2">
-      <figure>
-        <img class="img-flex push-1-2" src="images/saas-billboard.svg" alt="">
-        <button class="button-pos">Sign Up Now- For Free</button>
-      </figure>
-    </div>
+<!-->
+
+var image1=new Image()
+image1.src="secuirty1.jpeg"
+var image1=new Image()
+image1.src="secuirty2.jpg"
+var image1=new Image()
+image1.src="secuirty3.jpeg"
+//-->
+<img src="security1.jpeg" name="slide" width="400" height="400">
+<script type="text/javascript">
+<!--
+var step=1
+function slideit() {
+document.images.slide.src=eval("image"+step+" .src")
+if(step<3)
+step++
+else
+step=1
+setTimeout ("slideit() ",2500)
+}
+slideit()
+//-->
+  
+
+</script>
     
 <main role="main" id="main">
 
@@ -95,8 +114,4 @@
     
 
 
-
-
-</body>
-</html>
 
