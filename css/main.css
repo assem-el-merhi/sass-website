@@ -104,7 +104,7 @@ a:focus {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: #ffff00;
+  color: #add8e6;
   text-decoration: none;
 }
 
@@ -115,12 +115,10 @@ a:focus {
 .nav .nav-current:link,
 .nav .nav-current:visited {
   background-color: #2080a0;
-  color: #fff;
+  color: yellow;
 }
 
 .section-dark {
-  background-color:;
-  overflow: hidden;
   background-image: url(../images/banner.jpg);
   background-size: 100rem;
   background-repeat: no-repeat;
@@ -128,7 +126,7 @@ a:focus {
 }
 
 .section-mid {
-  background-color: ;
+ 
 }
 
 .section {
@@ -175,7 +173,7 @@ a:focus {
   .nav-footer a:link,
   .nav-footer a:visited {
     display: inline-block;
-    color: #ffff00;
+    color: #add8e6;
    
 }
 
@@ -183,7 +181,7 @@ a:focus {
     content: "·";
     display: inline-block;
     width: 0.5em;
-    color: #666;
+    color: #add8e6;
     text-align: right;
   }
 
@@ -218,21 +216,16 @@ a:focus {
 }
     
 .apps-icons {
-     padding: .875rem 30%;
+     padding: .875rem 20%;
+     float: left;
 }
     
 @media only screen and (min-width: 60em) {
-    
-
 
 .logo-wrap {
     text-align: left;
 }
     
-   .moon-text {
-    padding-left: 1.5rem;
-  }
-
   .stats {
     overflow: hidden;
   }
@@ -289,8 +282,8 @@ Legend {
 button{
 font-size: 0.7em;
 text-align: center;
-background-color: black;
-color: yellow;
+background-color: #003366;
+color: #00ffff;
 }
 
 form {
@@ -341,8 +334,34 @@ color: yellow;
 background-color: black;
 border-bottom: 1px solid #ccc;
 }
-
-
+    
+.bill {
+  overflow: hidden;
+  background-image: url(../images/saas-billboard.svg);
+  background-repeat: no-repeat;
+  background-position:top;
+}
+    
+.banner {
+    position: relative;
+}
+.button-pos {
+    position: absolute;
+    bottom: 3em;
+    left: 2em;
+    color: #003366;
+    background-color: #add8e6;
+    padding: 1em;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-style: groove;
+    border-bottom-color: #2080a0;
+    border-top-color: #2080a0; 
+    border-right-color: #2080a0; 
+    border-left-color: #2080a0; 
+}
+    
 
 
     
