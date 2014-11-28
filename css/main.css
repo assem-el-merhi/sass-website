@@ -212,10 +212,6 @@ a:focus {
   .nav-footer {
     text-align: right;
   }
-
-.apps-icons {
-     padding: .875rem 20%;
-     float: left;
 }
     
 @media only screen and (min-width: 60em) {
@@ -358,6 +354,11 @@ border-bottom: 1px solid #ccc;
     border-top-color: #2080a0; 
     border-right-color: #2080a0; 
     border-left-color: #2080a0; 
+}
+    
+.apps-icons {
+     padding: .875rem 20%;
+     float: left;
 }
     
 
