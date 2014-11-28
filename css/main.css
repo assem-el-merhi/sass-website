@@ -154,13 +154,15 @@ a:focus {
 .logo {
     width: 6rem;
     height: auto;
-    float: left;
     margin: 0.4rem 1.5%;
+}
+
+.logo-wrap {
+    text-align: center;
 }
     
 @media only screen and (min-width: 25em) {
 
-    
   .nav {
     text-align: center;
   }
@@ -190,6 +192,11 @@ a:focus {
   }
 
 @media only screen and (min-width: 38em) {
+    
+
+  .logo-wrap {
+    text-align: left;
+}
 
   .title,
   .nav {
@@ -215,8 +222,14 @@ a:focus {
 }
     
 @media only screen and (min-width: 60em) {
+    
 
-  .moon-text {
+
+.logo-wrap {
+    text-align: left;
+}
+    
+   .moon-text {
     padding-left: 1.5rem;
   }
 
@@ -328,4 +341,12 @@ color: yellow;
 background-color: black;
 border-bottom: 1px solid #ccc;
 }
+
+
+
+
+    
+    
+    
+
     
