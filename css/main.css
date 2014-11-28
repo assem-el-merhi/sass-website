@@ -212,11 +212,12 @@ a:focus {
   .nav-footer {
     text-align: right;
   }
+
 }
     
 @media only screen and (min-width: 60em) {
 
-.logo-wrap {
+.logo-wrap { 
     text-align: left;
 }
     
