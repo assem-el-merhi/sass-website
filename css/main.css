@@ -329,14 +329,7 @@ color: yellow;
 background-color: black;
 border-bottom: 1px solid #ccc;
 }
-    
-.bill {
-  overflow: hidden;
-  background-image: url(../images/saas-billboard.svg);
-  background-repeat: no-repeat;
-  background-position:top;
-}
-    
+        
 .banner {
     position: relative;
 }
