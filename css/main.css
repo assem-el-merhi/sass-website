@@ -80,7 +80,6 @@ a:focus {
 
 .img-flex {
   display: block;
-  width: 100%;
 }
 
 .masthead {
@@ -150,7 +149,7 @@ a:focus {
 }
 
 .logo {
-    width: 6rem;
+    width: 3.4rem;
     height: auto;
     margin: 0.4rem 1.5%;
 }
@@ -191,8 +190,11 @@ a:focus {
 
 @media only screen and (min-width: 38em) {
     
-
-  .logo-wrap {
+  .button-pos {
+    font-size: 
+  }
+  
+    .logo-wrap {
     text-align: left;
 }
 
@@ -216,6 +218,7 @@ a:focus {
 }
     
 @media only screen and (min-width: 60em) {
+    
 
 .logo-wrap { 
     text-align: left;
@@ -336,10 +339,10 @@ border-bottom: 1px solid #ccc;
 .button-pos {
     position: absolute;
     bottom: 3em;
-    left: 2em;
+    left: 2.4em;
     color: #003366;
     background-color: #add8e6;
-    padding: 1em;
+    padding: 1.1em;
     border-bottom-style: groove;
     border-left-style: groove;
     border-right-style: groove;
@@ -348,11 +351,16 @@ border-bottom: 1px solid #ccc;
     border-top-color: #2080a0; 
     border-right-color: #2080a0; 
     border-left-color: #2080a0; 
+    display: inline-block;
 }
     
 .apps-icons {
      padding: .875rem 20%;
      float: left;
+}
+    
+.laptop {
+    display: block;
 }
     
 
