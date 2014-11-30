@@ -145,7 +145,8 @@ a:focus {
 
 .copyright { 
   text-align: center;
-  color: yellow
+  color: yellow;
+  padding-bottom: 1em;
 }
 
 .logo {
@@ -354,7 +355,7 @@ border-bottom: 1px solid #ccc;
 }
     
 .apps-icons {
-    padding-left: 5em
+    padding-top: 4em
 }
     
 .laptop {
