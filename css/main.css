@@ -149,7 +149,7 @@ a:focus {
 }
 
 .logo {
-    width: 3.4rem;
+    width: 3.6rem;
     height: auto;
     margin: 0.4rem 1.5%;
 }
@@ -194,7 +194,7 @@ a:focus {
     font-size: 
   }
   
-    .logo-wrap {
+  .logo-wrap {
     text-align: left;
 }
 
@@ -351,17 +351,17 @@ border-bottom: 1px solid #ccc;
     border-top-color: #2080a0; 
     border-right-color: #2080a0; 
     border-left-color: #2080a0; 
-    display: inline-block;
 }
     
 .apps-icons {
-     padding: .875rem 20%;
-     float: left;
+    padding-left: 5em
 }
     
 .laptop {
     display: block;
 }
+    
+    
     
 
 
