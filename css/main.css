@@ -191,10 +191,6 @@ a:focus {
 
 @media only screen and (min-width: 38em) {
     
-  .button-pos {
-    font-size: 
-  }
-  
   .logo-wrap {
     text-align: left;
 }
@@ -355,7 +351,8 @@ border-bottom: 1px solid #ccc;
 }
     
 .apps-icons {
-    padding-top: 4em
+    padding-top: 4em;
+    
 }
     
 .laptop {
