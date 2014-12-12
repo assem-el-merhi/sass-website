@@ -89,13 +89,11 @@ a:focus {
 
 
 .masthead {
-  overflow: hidden;
+margin-bottom: -2em
+
 }
 
-.title {
-  color: #003366;
 }
-
 .nav {
   padding: 0;
 }
@@ -137,11 +135,13 @@ padding-top: 2em;
 }
 
 .section-trust {
-background-color: #003366;
+background-image: url(../images/white-back.jpg)
 }
 
 .section {
-  background-color: white;
+ background-color: #add8e6;
+
+
 }
 
 .section-bottom {
@@ -175,16 +175,34 @@ background-color: #003366;
 @media only screen and (min-width: 25em) {
     
     
-.saas-name {
-color: yellow;
-font-size: 1.8em;
+.button3 {
+font-size: 1em;
+background-color: #003366;
+color: #00ffff;
+padding: 1em 3%;
+position: absolute;
+}
+    
+.title {
+ color: #003366;
  text-align: center;
-margin-top: 0.8em;
-font-family: Futura;
+ 
+}
+    
+.restriction {
+    color: yellow;
+    text-align: center;
 }
     
     
-    
+.saas-name {
+color: yellow;
+font-size: 1.8em;
+text-align: center;
+margin-top: 0.8em;
+font-family: Futura;
+}
+           
 .button2{
 font-size: 1em;
 background-color: #003366;
@@ -196,11 +214,11 @@ margin-left: 2em;
 
     
     
-   .meaning {
-    font-size: 1.5em;
-    margin-right: 1em;
-    margin-bottom: 2em;
-    margin-left: 1.2em;
+ .meaning {
+ font-size: 1.5em;
+ margin-right: 1em;
+ margin-bottom: 2em;
+ margin-left: 1.2em;
 }
     
     
@@ -240,13 +258,35 @@ margin-left: 2em;
 
 @media only screen and (min-width: 38em) {
     
+    
+.button3 {
+font-size: 1em;
+background-color: #003366;
+color: #00ffff;
+padding: 1em 3%;
+position: absolute;
+}
+.price {
+text-align: center;
+}
+    
+.title {
+ color: #003366 ;
+ text-align: center;
+ 
+}
+    
+.restriction {
+    color: yellow;
+    text-align: left;
+}
+    
 .saas-name {
 color: yellow;
 font-size: 1.5em;
 margin-left: 4em;
 margin-top: -2.8em;
 }
-    
     
     
     .button2{
@@ -259,23 +299,20 @@ padding: 1em 3%
     .meaning {
     font-size: 1.7em;
     margin-right: 8em;
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    color: #003366; 
 }
     
     
   .head {
       font-size: 2.6em;
-      
+      margin-top: 1em;
+      color: #003366; 
   }
     
   .logo-wrap {
     text-align: left;
 }
-
-  .title,
-  .nav {
-    text-align: left;
-  }
 
   .discovery-text {
     padding-right: 1.5rem;
@@ -301,7 +338,7 @@ padding: 1em 3%
     
 @media only screen and (min-width: 60em) {
     
-    .saas-name {
+.saas-name {
 color: yellow;
 font-size: 1.5em;
 margin-left: 4em;
@@ -349,7 +386,7 @@ input + label {
 .name,
 .email {
     width: 80%;
-     font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .field {
@@ -366,10 +403,6 @@ Legend {
     width: 80%;
 }
 
-.button{
-font-size: 0.7em;
-text-align: center;
-}
 
 form {
 max-width: 35em;
@@ -423,21 +456,6 @@ border-bottom: 1px solid #ccc;
 .banner {
     position: relative;
 }
-.button-pos {
-    
-
-    color: #003366;
-    background-color: #add8e6;
-    padding: 1.1em;
-    border-bottom-style: groove;
-    border-left-style: groove;
-    border-right-style: groove;
-    border-top-style: groove;
-    border-bottom-color: #2080a0;
-    border-top-color: #2080a0; 
-    border-right-color: #2080a0; 
-    border-left-color: #2080a0;
-}
     
 .apps-icons {
     padding-top: 2em
@@ -473,8 +491,34 @@ margin-left: 2em;
 margin-right: 2em;
 }
 
+.caption {
+    text-align: center;
+}
+    
+.linker {
+   color: blue;
+}
+    
+.elevator {
+    margin-bottom: 2em;
+}
 
+.icon-text {
+text-align: center;
+}
+    
+.sign-head {
+margin-top: 1.2em;
+}
+    
+    
+    
+    
+   
+    
+    
 
+    
 
     
 
