@@ -168,6 +168,13 @@ padding-top: 2em;
     
 @media only screen and (min-width: 25em) {
     
+    
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+        margin-right: 2em;
+	}
+    
  .meaning {
     font-size: 1.7em;
     margin-right: 8em;
@@ -269,7 +276,12 @@ margin-left: 2em;
 @media only screen and (min-width: 38em) {
     
     
-    
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+        margin-right: -1em;
+	}
+ 
 .button3 {
 font-size: 1em;
 background-color: #003366;
@@ -531,12 +543,6 @@ margin-top: 1.2em;
 .price-title {
 color: #003366;
 }
-
-	#tfnewsearch{
-		float:right;
-		padding:20px;
-        margin-right: 2em;
-	}
 	.tftextinput{
 		margin: 0;
 		padding: 5px 15px;
